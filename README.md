@@ -130,6 +130,44 @@ To become a skilled Cyber Security Professional by consistently learning network
 - Uses Python's `subprocess` module to execute system commands.
 
 ---
+## ✅ Day 4 – Building the DNS Lookup Tool
+
+### Topics Covered
+
+- DNS (Domain Name System)
+- Domain Name
+- IP Address
+- DNS Resolution
+- Exception Handling (`try-except`)
+
+### Python Concepts Learned
+
+- `import`
+- `socket`
+- `socket.gethostbyname()`
+- `try`
+- `except`
+- `.strip()`
+
+### Networking Concepts Learned
+
+- DNS
+- Domain Name
+- IP Address Resolution
+- DNS Server
+- Domain to IP Conversion
+
+### Mini Project
+
+## 🌐 DNS Lookup Tool (Version 1.0)
+
+### Features
+
+- Accepts a domain name as input.
+- Validates empty input.
+- Converts a domain name into its IP address.
+- Displays the corresponding IP address.
+- Handles invalid domain names using exception handling.
 
 # 🚀 Completed Projects
 
@@ -137,6 +175,7 @@ To become a skilled Cyber Security Professional by consistently learning network
 |---------|--------|---------|
 | IPv4 Address Validator | ✅ Completed | v1.0 |
 | Ping Tool | ✅ Completed | v1.0 |
+| DNS Lookup Tool | ✅ Completed | v1.0 |
 
 ---
 
@@ -145,9 +184,12 @@ To become a skilled Cyber Security Professional by consistently learning network
 - Python Programming
 - Networking Fundamentals
 - IPv4 Address Validation
+- DNS Resolution
 - Input Validation
+- Exception Handling
 - Windows Command Line
 - ICMP & Ping
+- Python `socket`
 - Python `subprocess`
 - Git & GitHub
 - Problem Solving
@@ -171,7 +213,8 @@ CyberSecurityToolkit/
 
 ├── modules/
 │   ├── ip_validator.py
-│   └── ping_tool.py
+│   ├── ping_tool.py
+│   └── dns_lookup.py
 │
 ├── docs/
 ├── reports/
@@ -180,12 +223,10 @@ CyberSecurityToolkit/
 ├── requirements.txt
 └── .gitignore
 ```
-
 ---
 
 # 📌 Upcoming Modules
 
-- 🔄 DNS Lookup
 - 🔄 Port Scanner
 - 🔄 Banner Grabbing
 - 🔄 Password Strength Checker
@@ -209,10 +250,11 @@ Every project begins with understanding the networking concept first, followed b
 
 - ✅ Project Setup
 - ✅ Git & GitHub
-- ✅ Networking Basics (IPv4)
+- ✅ Networking Basics (IPv4 & DNS)
 - ✅ IPv4 Address Validator (v1.0)
 - ✅ Ping Tool (v1.0)
-- 🔄 DNS Lookup (Next)
+- ✅ DNS Lookup Tool (v1.0)
+- 🔄 Port Scanner (Next)
 
 ---
 
