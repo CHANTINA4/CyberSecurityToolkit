@@ -161,6 +161,55 @@ To become a skilled Cyber Security Professional by consistently learning network
 
 ## 🌐 DNS Lookup Tool (Version 1.0)
 
+---
+
+## ✅ Day 5 – Building the Port Scanner
+
+### Topics Covered
+
+- TCP Ports
+- Socket Programming
+- Port Scanning
+- DNS Resolution
+- Open vs Closed Ports
+- Exception Handling
+- Socket Connection
+
+### Python Concepts Learned
+
+- `socket.socket()`
+- `socket.gethostbyname()`
+- `connect_ex()`
+- `try`
+- `except`
+- `socket.gaierror`
+- `int()`
+- `.strip()`
+- `close()`
+
+### Networking Concepts Learned
+
+- TCP
+- Port Numbers
+- Open Port
+- Closed Port
+- Socket Programming
+- TCP Connection
+- DNS Resolution
+
+### Mini Project
+
+## 🔍 Port Scanner (Version 1.0)
+
+### Features
+
+- Accepts a domain name as input.
+- Accepts a port number as input.
+- Resolves the domain into its IP address.
+- Checks whether the specified TCP port is **OPEN** or **CLOSED**.
+- Handles invalid domain names.
+- Closes the socket after scanning.
+
 ### Features
 
 - Accepts a domain name as input.
@@ -176,6 +225,7 @@ To become a skilled Cyber Security Professional by consistently learning network
 | IPv4 Address Validator | ✅ Completed | v1.0 |
 | Ping Tool | ✅ Completed | v1.0 |
 | DNS Lookup Tool | ✅ Completed | v1.0 |
+| Port Scanner | ✅ Completed | v1.0 |
 
 ---
 
@@ -193,6 +243,10 @@ To become a skilled Cyber Security Professional by consistently learning network
 - Python `subprocess`
 - Git & GitHub
 - Problem Solving
+- Socket Programming
+- TCP Port Scanning
+- Port Status Detection
+- Error Handling (`try-except`)
 
 ---
 
@@ -214,7 +268,8 @@ CyberSecurityToolkit/
 ├── modules/
 │   ├── ip_validator.py
 │   ├── ping_tool.py
-│   └── dns_lookup.py
+│   ├── dns_lookup.py
+│   └── port_scanner.py
 │
 ├── docs/
 ├── reports/
@@ -227,7 +282,6 @@ CyberSecurityToolkit/
 
 # 📌 Upcoming Modules
 
-- 🔄 Port Scanner
 - 🔄 Banner Grabbing
 - 🔄 Password Strength Checker
 - 🔄 Hash Generator
@@ -254,7 +308,8 @@ Every project begins with understanding the networking concept first, followed b
 - ✅ IPv4 Address Validator (v1.0)
 - ✅ Ping Tool (v1.0)
 - ✅ DNS Lookup Tool (v1.0)
-- 🔄 Port Scanner (Next)
+- ✅ Port Scanner 
+- 🔄 Banner Grabbing(Next)
 
 ---
 
